@@ -7,7 +7,7 @@ This was copied and modified from the [CAP Cloud Samples](https://github.com/SAP
 
 ## Running the project
 - Open a new terminal and run `cds watch` 
-- Test Data CSV has already been created 
+- Test Data CSV has already been created in `test\data\sap.capire.media-Media.csv`
 
 ## Running the Test Cases (.http files)
 Requires REST Client for VS Code [humao.rest-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
