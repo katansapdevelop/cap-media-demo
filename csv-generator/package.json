@@ -1,0 +1,16 @@
+{
+    "name": "cap-media-csv-generator",
+    "version": "1.0.0",
+    "description": "A simple CAP project.",
+    "repository": "https://github.com/katansapdevelop/cap-media-demo",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+      "csv-stringify": "^6.4.4",
+      "mime": "^3.0.0"
+    },
+    "scripts": {
+      "csv-gen": "node generator.js"
+    }
+  }
+  

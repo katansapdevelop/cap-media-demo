@@ -1,14 +1,13 @@
 {
   "name": "cap-media-demo",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "description": "A simple CAP project to demonstarte media loaded via CSV",
+  "repository": "https://github.com/katansapdevelop/cap-media-demo",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
-    "express": "^4",
-    "lokijs": "^1.5.12"
+    "express": "^4"
   },
   "files": [
     "db",
@@ -19,6 +18,7 @@
     "@cap-js/sqlite": "^1"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "csv-gen": "node ./csv-generator/generator.js"
   }
 }

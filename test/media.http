@@ -15,12 +15,12 @@ Accept: application/json
 Content-Type: application/json
 
 { 
-  "id": 1,
+  "id": 4,
   "mediaType": "image/png" 
 }
 
 ### Upload Binary PNG
-PUT {{protocol}}://{{host}}:{{port}}/odata/v4/media-server/Media(1)/content
+PUT {{protocol}}://{{host}}:{{port}}/odata/v4/media-server/Media(4)/content
 Authorization: Basic admin:
 Content-Type: image/png
 
@@ -28,6 +28,11 @@ Content-Type: image/png
 
 ### Read Binary
 GET {{protocol}}://{{host}}:{{port}}/odata/v4/media-server/Media(1)/content
+Authorization: Basic admin:
+
+
+### Read Binary 2
+GET {{protocol}}://{{host}}:{{port}}/odata/v4/media-server/Media(2)/content
 Authorization: Basic admin:
 
 ### Delete Image
